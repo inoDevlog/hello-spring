@@ -15,6 +15,7 @@ class MemoryMemberRepository {
 
     @AfterEach
     public void afterEach() {
+
         repository.clearStore();
     }
 
