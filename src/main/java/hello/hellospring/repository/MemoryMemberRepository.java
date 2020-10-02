@@ -32,7 +32,7 @@ public class MemoryMemberRepository implements MemberRepository{
                 .filter(member -> member.getName().equals(name))
                 .findAny();
     }
-
+    
     public void clearStore() {
         store.clear();
     }
