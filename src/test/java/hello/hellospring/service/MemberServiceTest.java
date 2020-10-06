@@ -39,6 +39,7 @@ class MemberServiceTest {
 
     @Test
     public void 중복_회원_예외() throws Exception {
+
         //Given
         Member member1 = new Member();
         member1.setName("spring");
