@@ -20,6 +20,7 @@ class MemoryMemberRepositoryTest {
 
     @Test
     public void save() {
+
         //given
         Member member = new Member();
         member.setName("spring");
@@ -34,6 +35,7 @@ class MemoryMemberRepositoryTest {
 
     @Test
     public void findByName() {
+
         //given
         Member member1 = new Member();
         member1.setName("spring1");
@@ -52,6 +54,7 @@ class MemoryMemberRepositoryTest {
 
     @Test
     public void findAll() {
+
         //given
         Member member1 = new Member();
         member1.setName("spring1");
