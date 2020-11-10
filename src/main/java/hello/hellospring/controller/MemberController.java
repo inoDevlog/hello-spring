@@ -44,10 +44,4 @@ public class MemberController {
         return "members/memberList";
     }
 
-    @GetMapping(value = "/members/list")
-    public String memberList(Model model) {
-        List<Member> members = memberService.findMembers();
-        // model.addAttribute();
-        return "members";
-    }
 }
